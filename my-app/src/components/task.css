@@ -1,0 +1,30 @@
+.task {
+    width: 300px;
+    border: 2px solid rgb(246, 25, 25);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.taskIsDone {
+    width: 300px;
+    border: 2px solid rgb(25, 231, 59);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.trash-can {
+    all: unset;
+    cursor: pointer;
+  }
+
+.trash-can img{
+    width: 15px;
+}
